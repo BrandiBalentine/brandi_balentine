@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 gem 'jquery-ui-rails'
+gem 'therubyracer'
+gem 'less-rails'
+gem 'less-rails-bootstrap'
 
 group :development do
   gem 'sqlite3', '1.3.5'

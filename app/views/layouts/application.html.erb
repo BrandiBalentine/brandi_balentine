@@ -4,12 +4,26 @@
   <%= javascript_include_tag "jquery.ui.core.min" %>  
   <%= javascript_include_tag "jquery.ui.widget.min" %>  
   <%= javascript_include_tag "jquery.effects.core" %>  
-  <title>BrandiBalentine</title>
+  <title>Brandi Balentine</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <a class="brand" href="/"><img class="logo" src="/assets/brandibalentine3.png"/></a>
+
+    <div class="pull-right">
+
+      <a class="brand" href="http://www.facebook.com/brandibalentine"><img class="social-button" src="/assets/Facebook.png" onmouseover="this.src='/assets/Facebookh.png'" onmouseout="this.src='/assets/Facebook.png'" /></a>
+      <a class="brand" href="https://twitter.com/BrandiBalentine"><img class="social-button" src="/assets/Twitter.png" onmouseover="this.src='/assets/Twitterh.png'" onmouseout="this.src='/assets/Twitter.png'" /></a>
+      <a class="brand" href="https://plus.google.com/u/0/109889992419473215638/posts"><img class="social-button" src="/assets/Google Plus.png" onmouseover="this.src='/assets/Google Plush.png'" onmouseout="this.src='/assets/Google Plus.png'" /></a>
+      <a class="brand" href="http://www.linkedin.com/in/brandibalentine/"><img class="social-button" src="/assets/LinkedIn.png" onmouseover="this.src='/assets/LinkedInh.png'" onmouseout="this.src='/assets/LinkedIn.png'" /></a>
+      <a class="brand" href="https://github.com/BrandiBalentine"><img class="social-button" src="/assets/github.png" onmouseover="this.src='/assets/githubh.png'" onmouseout="this.src='/assets/github.png'" /></a>
+    </div>
+  </div>
+</div>
 
 <%= yield %>
 
