@@ -1,0 +1,91 @@
+<div class="wrapper" style="margin-top:75px;">
+	
+	<div id="joynme" class="job-div">
+		<div id="joynme-logo" class="img-div">
+			
+
+		</div>
+		<div class="job-sub-div">
+			<a href="http://www.joynme.com">JoynMe</a>
+		</div>
+		<div class="role-div">
+			Web Development
+		</div>
+	</div>
+	<div style="height:600px;background:gray;">
+		<img style="height:600px; width:100%;opacity:0.2;" src="assets/joynme.png"/>
+	</div>
+	<div id="mindsnacks" class="job-div">
+		<div id="mindsnacks-logo" class="img-div">
+			
+		</div>
+		<div class="job-sub-div">
+			<a href="http://www.mindsnacks.com"> MindSnacks </a>
+		</div>
+		<div class="role-div">
+			Quality Assurance
+		</div>
+	</div>
+	<div style="height:600px;background:gray;">
+		<img style="height:600px; width:100%;opacity:0.2;" src="assets/mindsnackspic.png">
+	</div>
+	<div id="ngmoco" class="job-div">
+		<div id="ngmoco-logo" class="img-div">
+			
+		</div>
+		<div class="job-sub-div">
+			<a href="http://www.ngmoco.com">ngmoco:)</a>
+		</div>
+		<div class="role-div">
+			Player Relationships
+		</div>
+	</div>
+	<div style="height:600px;background:gray;">
+		<img style="height:600px; width:100%;opacity:0.2;" src="assets/ngmoco.png">
+	</div>
+</div>
+
+	<script>
+	
+	var addPic= function(){
+		window.onscroll = function () {
+		var scrollPosition=window.pageYOffset;
+
+
+			if(scrollPosition > document.getElementById("joynme").offsetTop - 75){
+				console.log(document.getElementById('joynme-image'));
+				if (document.getElementById('joynme-image') == null){
+					image = document.createElement("img")
+					image.src = "assets/JoynMe-Logo-with-Pin-no-blue.300x100 (1).png"
+					image.id = "joynme-image"
+					document.getElementById('joynme-logo').appendChild(image);
+				};
+			};
+
+			if(scrollPosition > document.getElementById("mindsnacks").offsetTop - 75){
+				console.log(document.getElementById('mindsnacks-image'));
+				if (document.getElementById('mindsnacks-image') == null){
+					image = document.createElement("img")
+					image.src = "assets/mindsnackslogo.png"
+					image.id = "mindsnacks-image"
+					document.getElementById('mindsnacks-logo').appendChild(image);
+				};
+			};
+			
+			if(scrollPosition > document.getElementById("ngmoco").offsetTop - 75){
+				console.log(document.getElementById('ngmoco-image'));
+				if (document.getElementById('ngmoco-image') == null){
+					image = document.createElement("img")
+					image.src = "assets/logo.png"
+					image.id = "ngmoco-image"
+					document.getElementById('ngmoco-logo').appendChild(image);
+				};
+			};
+		};
+	};
+
+	addPic();
+
+
+	</script>
+

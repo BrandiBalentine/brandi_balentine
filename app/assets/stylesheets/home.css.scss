@@ -1,3 +1,50 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.job-div{
+	height:600px;
+	background:#333333;
+	text-align:center;
+}
+
+.job-sub-div{
+	font-family:Open Sans Condensed;
+	font-size:80px;
+	color:#E67BAD;
+	padding-top:200px;
+	text-shadow: 3px 3px #761A3B;
+	float:left;
+	margin-left:500px;
+
+
+
+}
+
+.img-div{
+	float:right;
+	margin-top:200px;
+	margin-right:300px;
+	width:300px;
+	height:100px;
+
+}
+
+.role-div{
+	font-family:Open Sans Condensed;
+	font-size:40px;
+	color:lightgrey;
+	float:right;
+	margin-top:50px;
+	margin-right:200px;
+}
+a{
+	font-family:Open Sans Condensed;
+	font-size:80px;
+	color:#E67BAD;
+
+}
+a:hover{
+	color:pink;
+	text-shadow: 3px 3px darkgray;
+	text-decoration:none;
+}
