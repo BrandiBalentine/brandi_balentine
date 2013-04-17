@@ -5,48 +5,63 @@
 .job-div{
 	height:400px;
 	background:#1b1b1b;
-	text-align:center;
+	text-align:left;
 	position:absolute;
 	margin-top:900px;
+	width:100%;
 }
 
 .job-sub-div{
 	font-family:Open Sans Condensed;
 	font-size:80px;
 	color:#E67BAD;
-	padding-top:50px;
 	text-shadow: 3px 3px #761A3B;
-	float:left;
-	margin-left:500px;
+	margin-top:50px;
+	margin-left:100px;
+
+
 
 }
 
 .img-div{
-	float:right;
-	margin-top:100px;
-	margin-right:300px;
+
 	width:300px;
 	height:100px;
+	float:right;
+	margin-top:100px;
+	margin-right:100px;
 
 }
 
 .role-div{
 	font-family:Open Sans Condensed;
-	font-size:40px;
+	font-size:30px;
 	color:lightgrey;
-	float:right;
+	text-align:left;
 	margin-top:50px;
-	margin-right:80px;
+	margin-left:100px;
+
 }
-a{
+.bullet-div{
 	font-family:Open Sans Condensed;
-	font-size:80px;
+	font-size:20px;
+	color:grey;
+	text-align:left;
+	line-height:30px;
+	margin-top:20px;
+	margin-left:100px;
+}
+
+a {
+	font-family:Open Sans Condensed;
+	font-size:60px;
 	color:#E67BAD;
 
 }
+
 a:hover{
-	color:pink;
-	text-shadow: 3px 3px darkgray;
+	color:#761A3B;
+	text-shadow: 3px 3px #E67BAD;
 	text-decoration:none;
 }
 
