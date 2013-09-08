@@ -12,3 +12,68 @@ body{ background-color:#1b1b1b;
 div{
 	color:#666666;
 }
+
+#tweet-me{
+	background-color: #f65b8e;
+	border-radius: 5px;
+	width: 150px;
+	height: 30px;
+	color: white;
+	font-family: Open Sans Condensed;
+	display: block;
+	margin-top: 200px;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 8px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #9b0e48;
+	text-shadow: 1px 1px 1px #9b0e48;
+}
+#tweet-me:hover{
+	opacity:.8;
+}
+.button{
+	background-color: #f65b8e;
+	border-radius: 5px;
+	width: 150px;
+	height: 30px;
+	color: white;
+	font-family: Open Sans Condensed;
+	display: block;
+	margin-top: 200px;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 8px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #9b0e48;
+	text-shadow: 1px 1px 1px #9b0e48;
+}
+.button:hover{
+	opacity:.8;
+}
+#pop-up-div{
+	width:800px;
+	height:300px;
+	background-color:#f65b8e;
+	opacity:.9;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top:-300px;
+	z-index:1050;
+}
+#pop-up-backdrop{
+	opacity:.8;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1040;
+	background-color:#000;
+}

@@ -1,3 +1,14 @@
-<div class="coming-soon">
-	Coming Soon!
-</div>
+<div style="height:650px;"></div>
+<script>
+	$(document).ready(function(){
+			$('body').append('<div id="pop-up-backdrop"><div id="pop-up-div">Welcome to my homepage!<br> My website is still under contruction, but feel free to checkout what is here so far!</div></div>');
+				$('#pop-up-div').animate({
+					top:'50%',
+					bottom:'50%'},'slow');
+		$(document).on('click','#pop-up-backdrop',function(){
+			$('#pop-up-div,#pop-up-backdrop').fadeOut('slow');
+
+		});
+
+	}); </script>
+	<div style="height:70px;width:100%;"></div>

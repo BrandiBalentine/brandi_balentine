@@ -1,0 +1,62 @@
+
+	<div class="project-title"> 
+		<span class="gray-title">my</span><span class="pink-title">portfolio</span>
+	</div>
+	<div class="row">
+		<span class="fitstar-email">
+			<img class="email" id="fitstar-email-image"src="/assets/fitstar-email-bw.png" onmouseover="this.src='/assets/fitstar-email-color.png'" onmouseout="this.src='/assets/fitstar-email-bw.png'" />
+			<div class="box email-box" id="fitstar-email"><div class="box-text"> FitStar HTML Emails</div></div>
+		</span>
+		<span class="joynme-email">
+			<img class="email" id= "joynme-email" src="/assets/group-email-bw.png" onmouseover="this.src='/assets/group-email-color.png'" onmouseout="this.src='/assets/group-email-bw.png'"/>
+			<div class="box email-box-2"><div class="box-text"> JoynMe HTML Emails</div></div>
+		</span>
+		<span class="joynme-website">
+			<img class="joynme-site" id="joynme-website" src="/assets/joynme-web-bw.png" onmouseover="this.src='/assets/joynme-web-color.png'" onmouseout="this.src='/assets/joynme-web-bw.png'"/>
+			<div class="box joynme-site-box"><div class="joynme-site-box-text"> <a href="http://www.joynme.com" class="box-text">http://www.joynme.com</a></div></div>
+		</span>
+	</div>
+	<div class="row">
+		<span class="ted-talks">
+			<img class="ted-site" id="ted-talks" src="/assets/ted-bw.png" onmouseover="this.src='/assets/ted-color.png'" onmouseout="this.src='/assets/ted-bw.png'"/>
+			<div class="box ted-site-box"><div class="box-text"> <a href="http://www.tedtalks.com" class="box-text">http://www.tedtalks.com</a></div></div>
+		</span>
+		<span class="fitstar-website">
+			<img class="fitstar-site" id="fitstar-website" src="/assets/fitstar-site-bw.png" onmouseover="this.src='/assets/fitstar-site-color.png'" onmouseout="this.src='/assets/fitstar-site-bw.png'"/>
+			<div class="box fitstar-site-box"><div class="box-text"> <a href="http://www.fitstar.com" class="box-text">http://www.fitstar.com</a></div></div>
+		</span>
+	</div>
+	<div class="row">
+		<span class="shop-website">
+			<img class="shop-site" id="shop-website" src="/assets/shop-bw.png" onmouseover="this.src='/assets/shop-color.png'" onmouseout="this.src='/assets/shop-bw.png'"/>
+			<div class="box shop-site-box"><div class="box-text"> <a href="http://shop.fitstar.com" class="box-text">shop.fitstar.com</a></div></div>
+		</span>
+	</div>
+	<div class="row"></div>
+	<script> 
+		$(document).on('mouseover','#fitstar-email-image',function(){
+			$('#fitstar-email').animate({
+                height: '200px'
+            }, 1000);
+            
+		});
+		
+		$(document).on('mouseout','#fitstar-email-image',function(){
+			$('#fitstar-email').animate({
+                height: '0px'
+            }, 1000);
+		});
+	</script>
+	// <script>
+	// $(document).ready(function(){
+	// 		$('body').append('<div id="pop-up-backdrop"></div><div id="pop-up-portfolio"><img style="width: 700px;float: left;margin-left: 20px;" id="ted-talks" src="/assets/ted-bw.png"></div>');
+	// 			$('#pop-up-portfolio').animate({
+	// 				top:'50%',
+	// 				bottom:'50%'},'slow');
+	// 	$(document).on('click','#pop-up-backdrop',function(){
+	// 		$('#pop-up-portfolio,#pop-up-backdrop').fadeOut('slow');
+
+	// 	});
+
+	// }); </script>
+	

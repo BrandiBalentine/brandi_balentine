@@ -84,3 +84,4 @@ var addPic= function(){
 	};
 
 	addPic();
+	

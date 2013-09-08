@@ -1,0 +1,44 @@
+<div id="tweet-me">Tweet me!</div>
+<textarea id="tweet-body" style="display:block; margin-left:auto; margin-right:auto; margin-top: 10px;"></textarea>
+<div class="button" id="alert-me">Alert me!</div>
+<script>
+	$(document).ready(function(){
+		$('#alert-me').click(function(){
+			$('body').append('<div id="pop-up-backdrop"><div id="pop-up-div"></div></div>');
+				$('#pop-up-div').animate({
+					top:'50%',
+					bottom:'50%'},'slow');
+		});
+		$(document).on('click','#pop-up-backdrop',function(){
+			$('#pop-up-div,#pop-up-backdrop').fadeOut('slow');
+
+		});
+
+	});
+</script>
+
+<div id="slideshow">
+	<img data-id="0" src='/assets/Twitterh.png' />
+	<img data-id="1" src="/assets/LinkedIn.png" />
+	<img data-id="2" src='/assets/Google Plus.png' />
+</div>
+
+<script>
+   var $timeout = 0;
+   $('#slideshow img').each(function(index,image){
+   		$(image).css('display','none');
+   });
+   var slide = function(){
+   	 $('#slideshow img').each(function(index,image){
+   	 	$timeout = $timeout + 2000;
+   	 	setTimeout(function(){
+   	 		$('#slideshow img').each(function(index,image){
+   				$(image).css('display','none');
+   			});
+   	 		$(image).css('display','block');
+   	 	},$timeout);
+   	 });
+   	 slide();
+   };
+   slide();
+</script>

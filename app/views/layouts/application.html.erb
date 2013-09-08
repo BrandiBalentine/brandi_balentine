@@ -12,13 +12,16 @@
 <meta name="twitter:title" content="Brandi Balentine ">
 <meta name="twitter:description" content="My name is Brandi Balentine.">
   <%= csrf_meta_tags %>
+  <link rel="icon" type="image/png" href="assets/initials.png">
 </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div id="header" class="navbar-inner">
-    <div id="header-container">
-      <a class="brand" href="/"><img class="logo" src="/assets/brandibalentine3.png"/></a>
-      <div class="pull-right">
+<div style="background-color: rgba(0,0,0,0.75);
+height: 80px;position:fixed;width: 100%;z-index: 99999;">
+  <div>
+    <div>
+      <a href="/"><img class="logo" src="/assets/brandibalentine3.png"/></a>
+      <div class="pull-right social-button-container">
+        <div class="menu-button"></div>
         <a class="brand" href="http://www.facebook.com/brandibalentine"><img class="social-button" src="/assets/Facebook.png" onmouseover="this.src='/assets/Facebookh.png'" onmouseout="this.src='/assets/Facebook.png'" /></a>
         <a class="brand" href="https://twitter.com/BrandiBalentine"><img class="social-button" src="/assets/Twitter.png" onmouseover="this.src='/assets/Twitterh.png'" onmouseout="this.src='/assets/Twitter.png'" /></a>
         <a class="brand" href="https://plus.google.com/u/0/109889992419473215638/posts"><img class="social-button" src="/assets/Google Plus.png" onmouseover="this.src='/assets/Google Plush.png'" onmouseout="this.src='/assets/Google Plus.png'" /></a>
@@ -29,11 +32,16 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="container">
 
 <%= yield %>
 
+
 </div>
+
+<footer>
+  <div style="color:#fff;text-align:center;margin-top:20px;opacity:1.0;"> <a href="/#" class="footer-links">Home </a> | <a href="/experience" class="footer-links"> Experience </a> | <a href="/projects" class="footer-links"> Portfolio </a></div>
+</footer>
 
 </body>
 </html>

@@ -1,28 +1,29 @@
-/**
- * Parallax Scrolling Tutorial
- * For NetTuts+
- *  
- * Author: Mohiuddin Parekh
- *	http://www.mohi.me
- * 	@mohiuddinparekh   
- */
+
 
 
 body{
 	margin:0;
 	padding:0;
-	text-align:left;
+
+	
 }
 
-#ngmoco {
-	height: 550px;
+#fitstar {
+	height: 300px;
+	margin-top:150px;
+}
+#fitstar-logo{
+	margin-top: 50px;
+}
+#ngmoco{
+	margin-top:708px;
 }
 
 #joynme-scroll { 
 	background: url(joynmeimagegray.png) 50% 0 no-repeat fixed; 
 	background-size:1440px 1000px;
 	height: 1300px;  
-	margin: 0 auto; 
+	margin: 0 auto;
     width: 100%; 
     max-width: 1920px; 
     position: relative; 

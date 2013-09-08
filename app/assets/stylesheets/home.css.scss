@@ -9,7 +9,7 @@
 
 .job-div{
 	height:400px;
-	background:#1b1b1b;
+	background-color: rgba(0,0,0,0.75);
 	text-align:left;
 	position:absolute;
 	margin-top:900px;
@@ -69,5 +69,136 @@ a:hover{
 	text-shadow: 3px 3px #E67BAD;
 	text-decoration:none;
 }
+
+.project-container{
+	width:100%;
+	height:1500px;
+}
+
+.project-title {
+	font-family:Open Sans Condensed;
+	font-size:60px;
+	color:#E67BAD;
+	margin-top:150px;
+	text-align:left;
+	margin-left:20px;
+}
+.pink-title{
+	color:#E67BAD;
+}
+.gray-title{
+	color:lightgrey;
+}
+.row{
+	display: block;
+	width: 100%;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+.fitstar-email{
+
+}
+.joynme-email{
+	margin-left: 16px;
+}
+.joynme-website{
+	margin-left: 16px;
+}
+.fitstar-website{
+	margin-left: 16px;
+}
+.shop-website{
+}
+.ted-talks{
+
+}
+.email{
+	width: 286px;
+	height: 470px;
+}
+.joynme-site{
+	height: 470px;
+	width: 780px;
+}
+.fitstar-site{
+	width:780px;
+	height: 382px;
+}
+.shop-site{
+	width: 594px;
+	height: auto;
+}
+.ted-site{
+	height: 382px;
+	width: 594px;
+}
+.box{
+	background-color: #424242;
+	height: 65px;
+	position: absolute;
+	margin-top: -65px;
+	opacity: 0.9;
+	display:none;
+}
+
+.email-box{
+	width: 286px;
+}
+.email-box-2{
+	margin-left:306px;
+	width: 286px;
+}
+.joynme-site-box{
+	width: 780px;
+	margin-left: 612px;
+}
+.joynme-site-box-text{
+	margin-top:20px;
+}
+.fitstar-site-box{
+	width:780px;
+	margin-left: 614px;
+}
+.shop-site-box{
+	width: 1397px;
+}
+.ted-site-box{
+	width: 594px;
+}
+
+.box-text{
+	color: white;
+	font-family: Open Sans Condensed;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.box-text:hover{
+	color: gray;
+	font-family: Open Sans Condensed;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 20px;
+	text-shadow:none;
+	font-size: 22px;
+}
+.box-text{
+	color: white;
+	font-family: Open Sans Condensed;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.box-text:hover{
+	color: gray;
+	font-family: Open Sans Condensed;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 20px;
+	text-shadow:none;
+	font-size: 22px;
+	text-align:center;
+}
+
+
 
 
